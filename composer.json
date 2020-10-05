@@ -1,0 +1,27 @@
+{
+    "name": "Harcourt/generate-eloquent-model",
+    "description": "Generate Laravel Eloquent Model",
+    "authors": [
+        {
+            "name": "HarcourtFun"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Harcourt\\EloquentModelGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.0 || ^6.0 || ^7.0",
+        "illuminate/support": "^5.0 || ^6.0|| ^7.0",
+        "doctrine/dbal": "^2.5",
+        "Harcourt/code-generator": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harcourt\\EloquentModelGenerator\\Provider\\GeneratorServiceProvider"
+            ]
+        }
+    }
+}
