@@ -6,6 +6,7 @@
             "name": "HarcourtFun"
         }
     ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Harcourt\\EloquentModelGenerator\\": "src/"
