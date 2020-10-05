@@ -1,6 +1,6 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Processor;
+namespace Harcourt\EloquentModelGenerator\Processor;
 
 use Doctrine\DBAL\Schema\Table;
 use Illuminate\Database\DatabaseManager;
@@ -9,22 +9,22 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany as EloquentBelongsToMan
 use Illuminate\Database\Eloquent\Relations\HasMany as EloquentHasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne as EloquentHasOne;
 use Illuminate\Support\Str;
-use Krlove\CodeGenerator\Model\DocBlockModel;
-use Krlove\CodeGenerator\Model\MethodModel;
-use Krlove\CodeGenerator\Model\VirtualPropertyModel;
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Exception\GeneratorException;
-use Krlove\EloquentModelGenerator\Helper\EmgHelper;
-use Krlove\EloquentModelGenerator\Model\BelongsTo;
-use Krlove\EloquentModelGenerator\Model\BelongsToMany;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
-use Krlove\EloquentModelGenerator\Model\HasMany;
-use Krlove\EloquentModelGenerator\Model\HasOne;
-use Krlove\EloquentModelGenerator\Model\Relation;
+use Harcourt\CodeGenerator\Model\DocBlockModel;
+use Harcourt\CodeGenerator\Model\MethodModel;
+use Harcourt\CodeGenerator\Model\VirtualPropertyModel;
+use Harcourt\EloquentModelGenerator\Config;
+use Harcourt\EloquentModelGenerator\Exception\GeneratorException;
+use Harcourt\EloquentModelGenerator\Helper\EmgHelper;
+use Harcourt\EloquentModelGenerator\Model\BelongsTo;
+use Harcourt\EloquentModelGenerator\Model\BelongsToMany;
+use Harcourt\EloquentModelGenerator\Model\EloquentModel;
+use Harcourt\EloquentModelGenerator\Model\HasMany;
+use Harcourt\EloquentModelGenerator\Model\HasOne;
+use Harcourt\EloquentModelGenerator\Model\Relation;
 
 /**
  * Class RelationProcessor
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package Harcourt\EloquentModelGenerator\Processor
  */
 class RelationProcessor implements ProcessorInterface
 {

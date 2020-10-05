@@ -8,11 +8,11 @@ use Harcourt\CodeGenerator\Model\PropertyModel;
 use Harcourt\CodeGenerator\Model\VirtualPropertyModel;
 use Harcourt\EloquentModelGenerator\Config;
 use Harcourt\EloquentModelGenerator\Model\EloquentModel;
-use Krlove\EloquentModelGenerator\TypeRegistry;
+use Harcourt\EloquentModelGenerator\TypeRegistry;
 
 /**
  * Class FieldProcessor
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package Harcourt\EloquentModelGenerator\Processor
  */
 class FieldProcessor implements ProcessorInterface
 {
